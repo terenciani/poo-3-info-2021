@@ -1,7 +1,7 @@
 
 public class ComecaPorAqui {	
 	public static void main(String[] args) {
-		Carro objetoUm = new Carro(); // instanciação
+		Carro objetoUm = new Carro(); // instanciaÃ§Ã£o
 		
 		objetoUm.modelo = "Camaro";
 		objetoUm.cor 	= "Amarelo";
@@ -9,19 +9,19 @@ public class ComecaPorAqui {
 		objetoUm.quilometragem = 200;
 		objetoUm.novo	= true;
 		
-		System.out.println("Velocímetro: " + objetoUm.velocidade);  // 0
+		System.out.println("VelocÃ­metro: " + objetoUm.velocidade);  // 0
 		objetoUm.acelerar();
 		
-		System.out.println("Velocímetro: " + objetoUm.velocidade); // 10
+		System.out.println("VelocÃ­metro: " + objetoUm.velocidade); // 10
 		objetoUm.acelerar();
 		
-		System.out.println("Velocímetro: " + objetoUm.velocidade); // 20
+		System.out.println("VelocÃ­metro: " + objetoUm.velocidade); // 20
 		objetoUm.acelerar();
 		
-		System.out.println("Velocímetro: " + objetoUm.velocidade); // 30
+		System.out.println("VelocÃ­metro: " + objetoUm.velocidade); // 30
 		objetoUm.acelerar();
 		
-		System.out.println("Velocímetro: " + objetoUm.velocidade); // 40
+		System.out.println("VelocÃ­metro: " + objetoUm.velocidade); // 40
 		
 	}
 }
