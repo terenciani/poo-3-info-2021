@@ -1,5 +1,8 @@
 package br.edu.ifpr.exercicios.palestra.teste;
 
+import java.util.Scanner;
+
+import br.edu.ifpr.exercicios.palestra.modelo.Palestra;
 import br.edu.ifpr.exercicios.palestra.modelo.Sala;
 
 public class TestePalestra {
@@ -7,9 +10,15 @@ public class TestePalestra {
 		 // instanciação com o construtor padrão
 		Sala objetoSala = new Sala();
 		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		
 		// instanciação com o construtor personalizado		
 		Sala salaPersonalizada = new Sala();
 		
+		Palestra palestra = new Palestra();
+
 		
 		// instanciação com o construtor personalizado		
 		Sala salaPersonalizadaDois = new Sala("3INFO", "SALA04");

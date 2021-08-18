@@ -1,17 +1,24 @@
 package br.edu.ifpr.aula.construtores;
 
-public class Carro { // NomeDaClasse
-	// atributos
+public class Carro {
 	String modelo;
 	String cor;
+	int portas;
 	int quilometragem;
-	int porta;
 	boolean novo;
 	int velocidade;
 	
-	// metódos
+	public Carro() {
+		modelo = "Camaro";
+		cor = "Amarelo";
+	}
+	public Carro(String parametroModelo, String parametroCor) {
+		modelo = parametroModelo;
+		cor = parametroCor;
+	}
+
 	public void acelerar() {
-		// código dos métodos
-		velocidade = velocidade + 10;
+		
 	}
 }
+

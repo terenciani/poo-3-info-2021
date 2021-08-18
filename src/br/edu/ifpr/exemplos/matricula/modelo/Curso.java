@@ -4,6 +4,10 @@ public class Curso {
 	String nome;
 	
 	public Curso() {
-		
+		this.nome = "Informática";
+	}
+	
+	public Curso(String nome) {
+		this.nome = nome;
 	}
 }

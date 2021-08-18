@@ -6,7 +6,6 @@ public class TestaMatricula {
 
 	public static void main(String[] args) {
 		Aluno objetoAluno = new Aluno();
-
 	}
 
 }

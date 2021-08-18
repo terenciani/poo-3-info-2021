@@ -10,11 +10,11 @@ public class ComecaPorAqui {
 		
 		objetoUm.modelo = "Camaro";
 		objetoUm.cor 	= "Amarelo";
-		objetoUm.porta 	= 2;
+		objetoUm.portas 	= 2;
 		objetoUm.quilometragem = 200;
 		objetoUm.novo	= true;
 		
-		System.out.println("VelocÃ­metro: " + objetoUm.velocidade);  // 0
+		System.out.println("Velocímetro: " + objetoUm.velocidade);  // 0
 		objetoUm.acelerar();
 		
 		System.out.println("Velocímetro: " + objetoUm.velocidade); // 10
