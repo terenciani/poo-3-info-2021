@@ -1,9 +1,9 @@
 package br.edu.ifpr.exercicios.palestra.modelo;
 
 public class Palestra {
-	 public 	String tema;
-	 private 	String diaHora;
-				boolean exigeFrequencia;
+	private String tema;
+	private String diaHora;
+	private boolean exigeFrequencia;
 
 	public Palestra() {
 	}
@@ -13,4 +13,29 @@ public class Palestra {
 		this.diaHora = diaHora;
 		this.exigeFrequencia = exigeFrequencia;
 	}
+
+	public String getTema() {
+		return tema;
+	}
+
+	public void setTema(String tema) {
+		this.tema = tema;
+	}
+
+	public String getDiaHora() {
+		return diaHora;
+	}
+
+	public void setDiaHora(String diaHora) {
+		this.diaHora = diaHora;
+	}
+
+	public boolean isExigeFrequencia() {
+		return exigeFrequencia;
+	}
+
+	public void setExigeFrequencia(boolean exigeFrequencia) {
+		this.exigeFrequencia = exigeFrequencia;
+	}
+
 }

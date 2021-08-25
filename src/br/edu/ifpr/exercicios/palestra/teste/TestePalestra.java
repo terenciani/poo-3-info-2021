@@ -23,6 +23,6 @@ public class TestePalestra {
 		// instanciação com o construtor personalizado		
 		Sala salaPersonalizadaDois = new Sala("3INFO", "SALA04");
 		
-		System.out.println(objetoSala.capacidade);
+		System.out.println(objetoSala.getCapacidade());
 	}
 }
