@@ -8,10 +8,14 @@ public class Carro {
 	boolean novo;
 	int velocidade;
 	
+	
+	// Carro()
 	public Carro() {
 		modelo = "Camaro";
 		cor = "Amarelo";
 	}
+	
+	// Carro(String, String)
 	public Carro(String parametroModelo, String parametroCor) {
 		modelo = parametroModelo;
 		cor = parametroCor;
